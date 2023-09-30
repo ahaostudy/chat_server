@@ -15,6 +15,6 @@ var (
 func init() {
 	flag.StringVar(&HOST, "host", "0.0.0.0", "host")
 	flag.Int64Var(&PORT, "port", 8080, "port")
-	flag.StringVar(&PROXY, "proxy", "https://openai.ahao.ink/", "openai proxy")
+	flag.StringVar(&PROXY, "proxy", "https://api.openai.com/", "openai proxy")
 	flag.Parse()
 }
